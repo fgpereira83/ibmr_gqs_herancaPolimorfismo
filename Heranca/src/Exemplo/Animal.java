@@ -4,6 +4,7 @@ public abstract class Animal {
 	private String cadastroMunicipal;
 	private String nome;
 	private String dono;
+	
 	public String getCadastroMunicipal() {
 		return cadastroMunicipal;
 	}
@@ -23,7 +24,8 @@ public abstract class Animal {
 		this.dono = dono;
 	}
 	
-	public abstract String emiteSom();
 	
+	public abstract String emiteSom();
+	public abstract int numSemanaGestacaoMedia();
 
 }

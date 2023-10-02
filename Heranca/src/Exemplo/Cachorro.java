@@ -25,4 +25,9 @@ public class Cachorro extends Animal {
 	public String emiteSom() {
 		return "au...au...";
 	}
+
+	@Override
+	public int numSemanaGestacaoMedia() {
+		return 8;
+	}
 }
